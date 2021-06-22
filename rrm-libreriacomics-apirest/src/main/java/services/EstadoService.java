@@ -16,7 +16,7 @@ public class EstadoService {
 	@Autowired
 	private EstadoRepository estadoRepository;
 
-	@Transactional(readOnly = true)
+	@Transactional
 	public List<Estado> findAll() {
 
 		return estadoRepository.findAll();
