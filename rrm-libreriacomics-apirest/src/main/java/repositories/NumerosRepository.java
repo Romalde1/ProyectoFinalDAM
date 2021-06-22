@@ -11,10 +11,10 @@ import entities.Numero;
 
 @Repository
 public interface NumerosRepository extends JpaRepository<Numero, Long> {
-	@Query(value = "select * from numeros n natural join colecciones order by fecha_adquisicion desc", nativeQuery = true)
+	@Query(value = "select * from numeros natural join colecciones order by fecha_adquisicion desc")
 	List<Numero> ultimosNumerosAdquiridos();
 	
-	@Query(value = "select * from numeros n natural join colecciones order by precio desc", nativeQuery = true)
+	@Query(value = "select * from numeros natural join colecciones order by precio desc")
 	List<Numero> numerosMasCaros();
 
 }
