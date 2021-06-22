@@ -18,7 +18,7 @@ public class NumerosController {
 	@Autowired
 	NumerosService numerosService;
 
-	@GetMapping("/")
+	@GetMapping("/numeros")
 	public ResponseEntity<List<Numero>> findAll() {
 
 		return new ResponseEntity<List<Numero>>(numerosService.findAll(), HttpStatus.OK);
