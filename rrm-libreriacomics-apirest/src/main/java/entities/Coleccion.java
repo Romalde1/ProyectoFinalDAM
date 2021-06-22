@@ -26,7 +26,6 @@ public class Coleccion {
 	@Column(name = "imagenCol")
 	private String imagenCol;
 	@OneToMany(cascade = CascadeType.ALL, mappedBy = "coleccion")
-	// @JsonManagedReference
 	@JsonBackReference
 	private List<Numero> numeros;
 
