@@ -16,7 +16,6 @@ public class EstadoService {
 	@Autowired
 	private EstadoRepository estadoRepository;
 
-	@Transactional
 	public List<Estado> findAll() {
 
 		return estadoRepository.findAll();

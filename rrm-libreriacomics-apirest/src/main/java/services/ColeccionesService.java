@@ -16,7 +16,6 @@ public class ColeccionesService {
 	@Autowired
 	private ColeccionesRepository coleccionesRepository;
 
-	@Transactional
 	public List<Coleccion> findAll() {
 
 		return coleccionesRepository.findAll();

@@ -16,19 +16,16 @@ public class NumerosService {
 	@Autowired
 	private NumerosRepository numerosRepository;
 
-	@Transactional
 	public List<Numero> findAll() {
 
 		return numerosRepository.findAll();
 	}
 
-	@Transactional
 	public List<Numero> ultimosNumerosAdquiridos() {
 
 		return numerosRepository.ultimosNumerosAdquiridos();
 	}
 
-	@Transactional
 	public List<Numero> numerosMasCaros() {
 
 		return numerosRepository.numerosMasCaros();
