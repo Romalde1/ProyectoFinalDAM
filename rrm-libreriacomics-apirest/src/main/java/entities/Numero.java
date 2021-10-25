@@ -39,14 +39,16 @@ public class Numero {
 	private int numeroComic;
 
 	@ManyToOne
-	@JoinColumn(name = "id_estado")
-	private Estado estado;
-
-	@ManyToOne
 	@JoinColumn(name = "id_coleccion", nullable = false, updatable = false)
 	// @JsonBackReference
 	@JsonManagedReference
 	private Coleccion coleccion;
+	
+	@ManyToOne
+	@JoinColumn(name = "id_estado")
+	private Estado estado;
+
+	
 
 	public Numero() {
 
