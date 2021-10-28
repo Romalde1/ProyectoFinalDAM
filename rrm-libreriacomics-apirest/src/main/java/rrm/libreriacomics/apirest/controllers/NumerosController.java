@@ -1,4 +1,4 @@
-package com.luisfn.comic.controllers;
+package rrm.libreriacomics.apirest.controllers;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.luisfn.comic.entities.Numero;
-import com.luisfn.comic.services.NumerosService;
+import rrm.libreriacomics.apirest.entities.Numero;
+import rrm.libreriacomics.apirest.services.NumerosService;
 
 @RestController
 public class NumerosController {

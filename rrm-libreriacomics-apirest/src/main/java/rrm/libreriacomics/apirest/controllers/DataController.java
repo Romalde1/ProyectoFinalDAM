@@ -1,4 +1,4 @@
-package com.luisfn.comic.controllers;
+package rrm.libreriacomics.apirest.controllers;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;

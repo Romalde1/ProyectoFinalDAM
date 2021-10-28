@@ -1,4 +1,4 @@
-package com.luisfn.comic.entities;
+package rrm.libreriacomics.apirest.entities;
 
 import java.util.Date;
 

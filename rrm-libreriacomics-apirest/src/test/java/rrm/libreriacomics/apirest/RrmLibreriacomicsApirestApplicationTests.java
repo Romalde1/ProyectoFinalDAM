@@ -1,10 +1,10 @@
-package com.luisfn.comic;
+package rrm.libreriacomics.apirest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ComicRestApiApplicationTests {
+class RrmLibreriacomicsApirestApplicationTests {
 
 	@Test
 	void contextLoads() {

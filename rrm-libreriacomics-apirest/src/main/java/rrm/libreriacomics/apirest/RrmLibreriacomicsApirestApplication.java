@@ -1,13 +1,13 @@
-package com.luisfn.comic;
+package rrm.libreriacomics.apirest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ComicRestApiApplication {
+public class RrmLibreriacomicsApirestApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ComicRestApiApplication.class, args);
+		SpringApplication.run(RrmLibreriacomicsApirestApplication.class, args);
 	}
 
 }

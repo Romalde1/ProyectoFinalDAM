@@ -1,4 +1,4 @@
-package com.luisfn.comic.repositories;
+package rrm.libreriacomics.apirest.repositories;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.luisfn.comic.entities.Numero;
+import rrm.libreriacomics.apirest.entities.Numero;
 
 @Repository
 public interface NumerosRepository extends JpaRepository<Numero, Long> {
