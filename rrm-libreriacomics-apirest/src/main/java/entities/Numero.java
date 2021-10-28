@@ -40,7 +40,6 @@ public class Numero {
 
 	@ManyToOne
 	@JoinColumn(name = "id_coleccion", nullable = false, updatable = false)
-	// @JsonBackReference
 	@JsonManagedReference
 	private Coleccion coleccion;
 	
