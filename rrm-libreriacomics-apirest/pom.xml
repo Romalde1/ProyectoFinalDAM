@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>rrm.libreriacomics.apirest</groupId>
-	<artifactId>comic-rest-api</artifactId>
+	<artifactId>rrm-libreriacomics-apirest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>comic-rest-api</name>
+	<name>rrm-libreriacomics</name>
 	<description>Rest API para la aplicación móvil de comics</description>
 	<properties>
 		<java.version>1.8</java.version>
